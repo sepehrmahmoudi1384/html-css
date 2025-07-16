@@ -1,0 +1,57 @@
+@import url("import_font.css");
+
+body {
+	background-color: #1d2132;
+	font-family: Oswald;
+}
+
+div.container {
+	overflow-x: auto;
+}
+
+table {
+	width: 90vw;
+	min-width: 500px;
+	max-width: 1200px;
+	margin: 50px auto;
+	table-layout: fixed;
+}
+
+th {
+	color: #5bb7dd;
+}
+
+td {
+	color: #8c8e9e;
+}
+
+th,
+td {
+	padding: 20px;
+	text-align: left;
+}
+
+td.sites-col {
+	color: #bd5070;
+}
+
+td:hover {
+	background-color: #fdff42;
+	color: #282805;
+	border-left: 5px groove #767828;
+	border-bottom: 3px groove #767828;
+	border-top-left-radius: 10px;
+	font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #2d3345;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #262c3c;
+}
+
+tbody tr:hover {
+	background-color: #3e4247;
+}
